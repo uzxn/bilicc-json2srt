@@ -25,3 +25,19 @@ XXdir
   |-- foo.srt
   '-- bar.srt
 ```
+
+## 哔哩哔哩 JSON 格式
+
+```json
+{
+  body: [
+    {
+      content: "CONTENT",
+      from: START_SECOND.START_MILLISECOND,
+      location: 2,
+      to: END_SECOND.END_MILLISECOND
+    },
+    ...
+  ]
+}
+```
