@@ -26,16 +26,16 @@ XXdir
   '-- bar.srt
 ```
 
-## 哔哩哔哩 JSON 格式
+## 哔哩哔哩 JSON 字幕格式
 
-```json
+```
 {
-  body: [
+  "body": [
     {
-      content: "CONTENT",
-      from: START_SECOND.START_MILLISECOND,
-      location: 2,
-      to: END_SECOND.END_MILLISECOND
+      "content": "CONTENT", // 字幕内容
+      "from": START_SECOND.START_MILLISECOND, // 字幕开始时间（秒数.毫秒数）
+      "location": 2,
+      "to": END_SECOND.END_MILLISECOND // 字幕结束时间（秒数.毫秒数）
     },
     ...
   ]
